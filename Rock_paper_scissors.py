@@ -12,6 +12,29 @@ if player == computer:
     print("Tie!")
 elif player == "rock":
     if computer=="paper":
-    print("computer: ", computer)
-    print("player: ", player)
-    print("Tie!")
+        print("computer: ", computer)
+        print("player: ", player)
+        print("You Lose!")
+    if computer=="scissors":
+        print("computer: ", computer)
+        print("player: ", player)
+        print("You win!")
+elif player == "paper":
+     if computer=="rock":
+        print("computer: ", computer)
+        print("player: ", player)
+        print("You win!")
+     if computer=="scissors":
+        print("computer: ", computer)
+        print("player: ", player)
+        print("You lose!")
+elif player == "scissors":
+    if computer=="paper":
+        print("computer: ", computer)
+        print("player: ", player)
+        print("You win!")
+    if computer=="rock":
+        print("computer: ", computer)
+        print("player: ", player)
+        print("You lose!")
+    
